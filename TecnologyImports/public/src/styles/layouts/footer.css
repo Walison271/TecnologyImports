@@ -1,0 +1,39 @@
+.footer{
+    margin-top: 10%;
+    padding: 15px;
+    box-shadow: 7px 10px 15px black;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer h6{
+    font-family: montserrat;
+    font-size: small;
+    font-weight: 400;
+
+}
+.footer div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.footer div section{
+    padding: 1%;
+    margin: 2%;
+}
+.footer .img-align-footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    
+}
+.footer span{
+    display: flex;
+    justify-content: center;
+
+}
