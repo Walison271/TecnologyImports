@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: montserrat;
+    
+}
+hr{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+h1{
+    font-weight: 400;
+    margin: 5%;
+}
+
+.icons img{
+    margin: 10px;    
+}
+.main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main a{
+    text-decoration: none;
+}
+.main p{
+    color: #01AAFF;
+    font-size: small;
+}
+.main h6{
+    color: black;
+    font-size: medium;
+    font-weight: 400;
+}
+.container-nav-page{
+    background-color: white;
+    box-shadow: 1px 1px 7px lightgray;
+    justify-content:space-evenly;
+    padding: 1%;
+    display: flex;
+    flex-wrap:wrap;
+    text-decoration: none;
+    color: #000;
+}
+.container-nav-page a{
+    text-decoration: none;
+    color: #000;
+}
+.Container-Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.Container-Card div{
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding:1vh;
+    padding-top:6vh;
+    padding-bottom:10vh;
+}
+.Container-Card h6{
+    font-size: small;
+    margin-bottom: 2rem;
+}
+.Container-Card img{
+    height: 7rem;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+.rectangle-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.rectangle-card .card-body{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px lightgray;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+
+
+}
+.rectangle-card .card-body ul{
+    font-size: 25px;
+    padding: 5%;
+
+}
+.rectangle-card .card-body ul h6{
+    font-weight: 100;
+    font-size: 25px;
+
+}
+.rectangle-card .card-body button{
+    color: white;
+    background-color:#363636 ;
+    font-size: 15px;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.card-element{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px 1px lightgray;
+    
+}
+.card-element span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #01AAFF;
+    color: white;
+    border-radius: 7px 7px 0px 0px;
+    padding: 5px;
+ 
+    
+}
+.card-element span p{
+    color: #fff;
+}
+.card-element .highlights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+.card-element .highlights div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.card-element img{
+    width: 40px;
+    margin: 2%;
+}

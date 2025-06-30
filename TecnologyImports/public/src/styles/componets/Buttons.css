@@ -1,0 +1,56 @@
+.blue{
+    background-color: #01AAFF;
+}
+.blue:hover{
+    background-color: #61caff;
+}
+.lightgray{
+    background-color: #d3d3d3;
+}
+.lightgray:hover{
+    background-color: #e6e6e6;
+}
+
+/* Botão Pagina de Login */
+.button-login{
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+    font-weight: lighter;
+    background-color: #01AAFF;
+    height: 50px;
+    width: 262px;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.3s;
+}
+.button-login:hover{
+    transform: scale(1.1);
+}
+/* Botão de compra e carrinho (Produtos) */
+.button-cart-and-buy{
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+    font-weight: lighter;
+    margin: 1%;
+    width: 100%;
+    padding: 2%;
+    border-radius: 5px;
+    border: none;
+}
+.blue:hover{
+    background-color: #61caff;
+}
+/* Botão de enviar (Contatos) */
+.submit{
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+    font-weight: lighter;
+    background-color: #01AAFF;
+    height: 25px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+}
